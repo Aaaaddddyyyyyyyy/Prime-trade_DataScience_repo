@@ -54,11 +54,12 @@ This project performs an **end-to-end data science analysis** to understand how 
 
 ## ⚙️ Project Pipeline
 
-```mermaid
-flowchart LR
-    A[Raw Data] --> B[Data Cleaning]
-    B --> C[Feature Engineering]
-    C --> D[EDA & Visualization]
+  A[Data Collection] --> B[Data Cleaning];
+    B --> C[Feature Engineering];
+    C --> D[EDA & Visualization];
+    D --> E[Segmentation];
+    E --> F[Insights];
+    F --> G[Strategy Recommendations];
 
 
 
@@ -74,8 +75,11 @@ flowchart LR
 ✨ Behavioral Segmentation of Traders
 
 ✨ Actionable Trading Strategy Recommendations
+
     D --> E[Segmentation]
+    
     E --> F[Insights]
+    
     F --> G[Strategy Recommendations]
 
 
@@ -89,10 +93,7 @@ flowchart LR
 🚀 Focus on disciplined, risk-managed trading
 
 
-📉 Visual Insights Preview
 
-
-<p align="center"> <img src="https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif" width="450"/> </p>
 
 🔮 Future Enhancements
 
@@ -107,14 +108,9 @@ flowchart LR
 
 👨‍💻 Author
 
-
-<p align="center"> <img src="https://avatars.githubusercontent.com/u/583231?v=4" width="120" style="border-radius:50%" /> </p> <h3 align="center">Aditya Jha</h3> <p align="center"> <a href="https://www.linkedin.com/in/aditya-jha-aa211a290/"> <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/> </a> <a href="https://github.com/Aaaaddddyyyyyyyy"> <img src="https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github"/> </a> </p>
-
-
-📊 GitHub Stats
+Aditya Jha
 
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Aaaaddddyyyyyyyy&show_icons=true&theme=tokyonight&hide_border=true" /> </p> <p align="center"> <img src="https://streak-stats.demolab.com?user=Aaaaddddyyyyyyyy&theme=tokyonight&hide_border=true" /> </p>
 
 
 ⭐ Support
@@ -127,4 +123,4 @@ If you found this project useful:
 
 💬 Connect on LinkedIn
 
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=120&section=footer"/> </p> ```
+
