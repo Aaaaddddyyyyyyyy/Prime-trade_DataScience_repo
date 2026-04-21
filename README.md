@@ -1,39 +1,48 @@
-# 📊 Trader Performance vs Market Sentiment
+<h1 align="center">📊 Trader Performance vs Market Sentiment</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Data+Science+Project+🚀;Trader+Behavior+Analysis+📈;Fear+vs+Greed+Market+Insights+💡;Actionable+Trading+Strategies+⚡" />
+</p>
+
+---
 
 ## 🚀 Overview
-This project analyzes how Bitcoin market sentiment (Fear vs Greed) impacts trader behavior and performance.
+This project explores how **Bitcoin market sentiment (Fear vs Greed)** impacts **trader behavior and performance**.
 
-## 📂 Datasets
-- Bitcoin Market Sentiment Data
-- Historical Trader Data (Hyperliquid)
+🔍 Built using real-world trading data to uncover:
+- Behavioral patterns  
+- Risk-taking tendencies  
+- Strategy-level insights  
 
-## ⚙️ Tech Stack
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
+---
 
-## 📈 Key Features
-- Data Cleaning & Preprocessing
-- Feature Engineering (PnL, Win Rate, Leverage, Trade Frequency)
-- Sentiment-Based Analysis
-- Trader Segmentation
-- Actionable Strategy Recommendations
+## 🧠 Problem Statement
+> How does market sentiment influence trader decisions, profitability, and risk?
 
-## 🔍 Insights
-- Lower performance during Fear markets
-- High leverage increases risk significantly
-- Overtrading reduces win rate
+---
 
-## 💡 Strategies
-- Reduce leverage in volatile markets
-- Avoid overtrading
-- Follow disciplined trading patterns
+## 🛠️ Tech Stack
 
-## ▶️ How to Run
-1. Clone repo
-2. Open notebook
-3. Run all cells
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pandas,numpy,matplotlib,github,vscode" />
+</p>
 
-## 👤 Author
-Aditya Jha  
-[LinkedIn](https://www.linkedin.com/in/aditya-jha-aa211a290/)
+---
+
+## 📂 Dataset
+
+- 📊 Bitcoin Market Sentiment (Fear/Greed)
+- 💹 Historical Trader Data (Hyperliquid)
+
+---
+
+## ⚙️ Project Workflow
+
+```mermaid
+graph TD;
+    A[Data Collection] --> B[Data Cleaning];
+    B --> C[Feature Engineering];
+    C --> D[EDA & Visualization];
+    D --> E[Segmentation];
+    E --> F[Insights];
+    F --> G[Strategy Recommendations];
